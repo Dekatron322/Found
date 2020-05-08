@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+ <div class="hero-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide hero-content-wrap">
+                <img src="{% static 'images/hero.jpg' %}" alt="">
+
+                <div class="hero-content-overlay position-absolute w-100 h-100">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
+                                <header class="entry-header">
+                                    <h4>Contact Us</h4>
+                                </header><!-- .entry-header -->
+
+                                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
+                                    <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
+                                    
+                                </footer><!-- .entry-footer -->
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .container -->
+                </div><!-- .hero-content-overlay -->
+            </div><!-- .hero-content-wrap -->
+        </div>
+    </div>
+<br>
+
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Contact</h1>
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .page-header -->
+
+    <div class="contact-page-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-5">
+                    <div class="entry-content">
+                        <h2>Get In touch with us</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris. Lorem ipsum dolor sit amet, conse ctetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. Integer accu msan sodales odio, id tempus velit ullamc.</p>
+
+                        <ul class="contact-social d-flex flex-wrap align-items-center">
+                            <li><a href="https://youtube.com/results?search_query=funmi+nehan+outreach"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://instagram.com/funmi_nehan_outreach"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            
+                        </ul>
+
+                        <ul class="contact-info p-0">
+                            <li><i class="fa fa-phone"></i><span>+234-807-965-6886</span></li>
+                            <li><i class="fa fa-phone"></i><span>+234-8163854902</span></li>
+                            <li><i class="fa fa-envelope"></i><span>funmioutreach@gmail.com</span></li>
+                            <li><i class="fa fa-map-marker"></i><span>No.12, Ajanaku Street, off Salvation Bus Stop, Opedi Lagos.</span></li>
+                            <li><i class="fa fa-map-marker"></i><span>Jatto Phase 2, Kilanko Area, Ilorin, Kwara State.</span></li>
+                        </ul>
+                    </div>
+                </div><!-- .col -->
+
+                <div class="col-12 col-lg-7">
+                    <form class="contact-form">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea rows="15" cols="6" placeholder="Messages"></textarea>
+
+                        <span>
+                            <input class="btn gradient-bg" type="submit" value="Contact us">
+                        </span>
+                    </form><!-- .contact-form -->
+
+                </div><!-- .col -->
+            </div>
+                <br>
+{% endblock content %}
